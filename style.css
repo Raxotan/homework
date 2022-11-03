@@ -1,0 +1,40 @@
+body{
+  background-color: cornsilk;
+}
+#logo{
+  height: 32px;
+}
+
+ul :nth-child(2n) :visited{
+  color: RED;
+}
+ul :nth-child(2n+1) :visited{
+  color: green;
+}
+.navigation :hover{
+  display: inline;
+  border: 1px solid black;
+  background-color: rgba(255, 183, 0, 0.737);
+}
+img:not(#logo){
+  border: 2px solid purple;
+  box-shadow: 0 0 10px rgba(0,0,0,1);
+}
+h2{
+  width: 280px;
+  font-style: italic;
+  background-color: black;
+  color: white;
+}
+.red{
+  color: red;
+}
+p{
+  width: 1000px;
+  background-color: aqua;
+  font-style:normal;
+  font-size: 24px;
+}
+#adress{
+  width: 110px;
+}
